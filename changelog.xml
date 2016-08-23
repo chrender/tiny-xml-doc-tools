@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog>
+  <change version="0.1.0">
+    <datetime day-of-week="Tue" month="8" day="22" hour="22"
+      minute="12" second="39" timezone="CEST" year="2016"/>
+    <logentry>Migrated fizmo documentation tools from separate modules to “tiny-xml-doc-tools” repository. Fixed missing quotations for <tt>&lt;</tt> and <tt>&gt;</tt>.</logentry>
+  </change>
+</changelog>
+
