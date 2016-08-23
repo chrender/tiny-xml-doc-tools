@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changelog>
+  <change version="0.1.1">
+    <datetime day-of-week="Tue" month="8" day="23" hour="16"
+      minute="47" second="9" timezone="CEST" year="2016"/>
+    <logentry>Renamed conversion shell scripts.</logentry>
+  </change>
+
   <change version="0.1.0">
     <datetime day-of-week="Tue" month="8" day="22" hour="22"
       minute="12" second="39" timezone="CEST" year="2016"/>

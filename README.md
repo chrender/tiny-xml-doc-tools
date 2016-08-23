@@ -1,6 +1,6 @@
 
 
-**About tiny-xml-doc-tools v0.1.0**
+**About tiny-xml-doc-tools v0.1.1**
 
 
 The tiny-xml-doc-tools are a set of XSLT and script files used by the fizmo modules to provide documentation in various output formats. It invokes xsltproc to perform the actual conversion.
