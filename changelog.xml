@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changelog>
+  <change version="0.1.2">
+    <datetime day-of-week="Tue" month="8" day="23" hour="16"
+      minute="50" second="38" timezone="CEST" year="2016"/>
+    <logentry>Fixed missing scripts.</logentry>
+  </change>
+
   <change version="0.1.1">
     <datetime day-of-week="Tue" month="8" day="23" hour="16"
       minute="47" second="9" timezone="CEST" year="2016"/>

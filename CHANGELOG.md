@@ -1,6 +1,13 @@
 
 
 
+   **Version 0.1.2 — August 23, 2016**
+
+ - Fixed missing scripts.
+
+---
+
+
    **Version 0.1.1 — August 23, 2016**
 
  - Renamed conversion shell scripts.
