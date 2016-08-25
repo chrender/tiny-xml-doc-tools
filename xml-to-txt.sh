@@ -46,7 +46,7 @@ do
   then
     BASENAME=`echo "${BASENAME}" | tr '[:lower:]' '[:upper:]'`
   fi
-  OUTPUTFILENAME="${OUTPUTDIRECTORY}/${BASENAME}.md"
+  OUTPUTFILENAME="${OUTPUTDIRECTORY}/${BASENAME}.txt"
   echo "Converting \"$1\" to \"${OUTPUTFILENAME}\"."
   xsltproc -o "$OUTPUTFILENAME" "${SRCDIR}/${XSLTFILE}" "$1"
   shift
