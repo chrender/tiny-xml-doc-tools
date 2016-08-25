@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changelog>
+  <change version="0.1.3">
+    <datetime day-of-week="Thu" month="8" day="25" hour="17"
+      minute="18" second="41" timezone="CEST" year="2016"/>
+    <logentry>Fix suffix for conversion to text files.</logentry>
+  </change>
+
   <change version="0.1.2">
     <datetime day-of-week="Tue" month="8" day="23" hour="16"
       minute="50" second="38" timezone="CEST" year="2016"/>

@@ -1,6 +1,13 @@
 
 
 
+   **Version 0.1.3 — August 25, 2016**
+
+ - Fix suffix for conversion to text files.
+
+---
+
+
    **Version 0.1.2 — August 23, 2016**
 
  - Fixed missing scripts.
