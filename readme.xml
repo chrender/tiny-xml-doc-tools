@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
 
-  <section title="About tiny-xml-doc-tools v0.1.2">
+  <section title="About tiny-xml-doc-tools v0.1.4">
     <p>The tiny-xml-doc-tools are a set of XSLT and script files used by the fizmo modules to provide documentation in various output formats. It invokes xsltproc to perform the actual conversion.</p>
   </section>
 
@@ -13,7 +13,7 @@
       <li>&lt;ul&gt;, &lt;ol&gt; and &lt;li&gt; — Lists and items</li>
       <li>&lt;p&gt; — Text paragraph</li>
       <li>&lt;code&gt; — Code section</li>
-      <li>&lt;a&gt; with @href — Link</li>
+      <li>&lt;a&gt; with @href — Hyperlink</li>
       <li>&lt;i&gt; — Italics</li>
       <li>&lt;b&gt; — Bold</li>
       <li>&lt;tt&gt; — Monospaced</li>
@@ -28,6 +28,7 @@
       <li>&lt;change&gt; with @version — Version container</li>
       <li>&lt;datetime&gt; with @day-of-week, @month, @day, @hour, @minute, @second, @timezone and @year — denotes parent's change date.</li>
       <li>&lt;logentry&gt; — Describes change, used inside change element.</li>
+      <li>&lt;a&gt; with @href — Hyperlink</li>
     </ul>
   </section>
 

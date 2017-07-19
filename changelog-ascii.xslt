@@ -220,5 +220,23 @@
       </xsl:when>
     </xsl:choose>
   </xsl:template>
+
+  <xsl:template match="a">
+    <xsl:variable name="inline-content">
+      <xsl:apply-templates/>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="$inline-content != ''">
+        <xsl:value-of select="$inline-content"/>
+        <xsl:text> (</xsl:text>
+        <xsl:value-of select="@href"/>
+        <xsl:text>)</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="@href"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
 </xsl:stylesheet>
 

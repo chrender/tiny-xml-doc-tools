@@ -1,6 +1,13 @@
 
 
 
+   **Version 0.1.4 — July 19, 2017**
+
+ - Added support for hyperlinks in changelogs.
+
+---
+
+
    **Version 0.1.3 — August 25, 2016**
 
  - Fix suffix for conversion to text files.
