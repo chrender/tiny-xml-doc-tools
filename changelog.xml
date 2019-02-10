@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changelog>
+  <change version="0.1.5">
+    <datetime day-of-week="Sun" month="2" day="10" hour="8"
+      minute="41" second="11" timezone="CET" year="2019"/>
+    <logentry>Added missing quoting for underscore in Markdown.</logentry>
+  </change>
+
   <change version="0.1.4">
     <datetime day-of-week="Wed" month="7" day="19" hour="17"
       minute="37" second="57" timezone="CEST" year="2017"/>

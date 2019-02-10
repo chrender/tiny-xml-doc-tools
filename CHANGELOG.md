@@ -1,6 +1,13 @@
 
 
 
+   **Version 0.1.5 — Febuary 10, 2019**
+
+ - Added missing quoting for underscore in Markdown.
+
+---
+
+
    **Version 0.1.4 — July 19, 2017**
 
  - Added support for hyperlinks in changelogs.

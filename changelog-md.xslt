@@ -111,7 +111,15 @@
 
   <xsl:template match="text()">
     <xsl:call-template name="string-replace-all">
-      <xsl:with-param name="text" select="."/>
+      <xsl:with-param name="text">
+        <xsl:call-template name="string-replace-all">
+          <xsl:with-param name="text" select="."/>
+          <xsl:with-param name="replace" select="'_'" />
+          <xsl:with-param name="by">
+            <xsl:text>\_</xsl:text>
+          </xsl:with-param>
+        </xsl:call-template>
+      </xsl:with-param>
       <xsl:with-param name="replace" select="'*'" />
       <xsl:with-param name="by">
         <xsl:text>\*</xsl:text>
